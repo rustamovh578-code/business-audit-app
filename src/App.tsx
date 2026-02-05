@@ -1,4 +1,3 @@
-import React from 'react';
 import { useAudit } from './context/AuditContext';
 import Home from './pages/Home';
 import Wizard from './pages/Wizard';

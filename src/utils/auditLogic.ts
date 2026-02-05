@@ -15,7 +15,6 @@ export const calculateAuditResults = (data: AuditData): AuditResult => {
     // 2. Budget Calculations (CPL $0.8 - $1.5)
     // Penalties
     let inefficiencyMultiplier = 1;
-    const lostBudgetPercent = 0;
 
     const risks: string[] = [];
     const recommendations: string[] = [];
