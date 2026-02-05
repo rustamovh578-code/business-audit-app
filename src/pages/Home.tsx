@@ -37,11 +37,8 @@ const Home = () => {
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                             <Button size="lg" onClick={() => setCurrentView('wizard')} className="group">
-                                Bepul Auditni Boshlash
+                                Auditni Boshlash
                                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                            </Button>
-                            <Button variant="secondary" size="lg" onClick={() => setCurrentView('report')}>
-                                Demo Hisobotni Ko'rish
                             </Button>
                         </div>
                     </motion.div>
